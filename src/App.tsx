@@ -7,8 +7,10 @@ import Services from './Screens/Pages/Services';
 import About from './Screens/Pages/About';
 import Portfolio from './Screens/Pages/Portfolio';
 import Contact from './Screens/Pages/Contact';
+import { app } from './firebase';
 
 function App() {
+  console.log("Firebase initialized:", app.name);
   return (
     <Router>
       <DashboardPage>
