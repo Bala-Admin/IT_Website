@@ -13,56 +13,56 @@ const services = [
     {
         icon: Code2,
         title: "Custom Software Development",
-        description: "Tailored software solutions built from the ground up to meet your unique business requirements. Our expert developers use the latest technologies and best practices to create scalable, maintainable applications.",
+        description: "Tailored software solutions engineered to meet your unique business needs. We deliver scalable, secure, and future-ready applications using cutting-edge technologies.",
         features: ["Web Applications", "Enterprise Software", "API Development", "Legacy Modernization"],
         gradient: "from-blue-500 to-blue-600"
     },
     {
         icon: Smartphone,
         title: "Mobile App Development",
-        description: "Native and cross-platform mobile applications that deliver exceptional user experiences. We build apps for iOS and Android that engage users and drive business growth.",
+        description: "Seamless native and cross-platform applications designed for exceptional user experiences. Driving engagement and growth on iOS and Android.",
         features: ["iOS Development", "Android Development", "React Native", "Flutter Apps"],
         gradient: "from-purple-500 to-purple-600"
     },
     {
         icon: Database,
         title: "SAP Solutions",
-        description: "Comprehensive SAP implementation, customization, and support services. We help enterprises leverage SAP to streamline operations and improve efficiency.",
+        description: "Strategic SAP services to optimize business processes and enhance efficiency. From implementation to integration, we make SAP work for you.",
         features: ["SAP Implementation", "SAP S/4HANA", "SAP Consulting", "SAP Integration"],
         gradient: "from-amber-500 to-amber-600"
     },
     {
         icon: Cloud,
         title: "Cloud Services",
-        description: "End-to-end cloud solutions including migration, infrastructure setup, and optimization. We help businesses leverage the power of cloud computing for scalability and cost efficiency.",
+        description: "Complete cloud solutions for scalability, flexibility, and efficiency. From migration to optimization, we simplify your cloud journey.",
         features: ["AWS Services", "Azure Solutions", "Cloud Migration", "DevOps"],
         gradient: "from-cyan-500 to-cyan-600"
     },
     {
         icon: Settings,
         title: "IT Consulting",
-        description: "Strategic technology consulting to align IT with your business goals. Our experts provide guidance on digital transformation, architecture design, and technology selection.",
+        description: "Expert technology advisory to align IT strategy with business goals. Empowering transformation with innovative architecture and strategic planning.",
         features: ["Digital Strategy", "Tech Architecture", "System Design", "Best Practices"],
         gradient: "from-green-500 to-green-600"
     },
     {
         icon: BarChart3,
         title: "Business Intelligence",
-        description: "Transform your data into actionable insights with our BI solutions. We implement analytics platforms and create custom dashboards for data-driven decision making.",
+        description: "Transform data into insight. We create powerful analytics platforms and custom dashboards for smarter decision-making.",
         features: ["Data Analytics", "Power BI", "Custom Dashboards", "Reporting Solutions"],
         gradient: "from-indigo-500 to-indigo-600"
     },
     {
         icon: Shield,
         title: "Cybersecurity",
-        description: "Protect your digital assets with our comprehensive security services. We implement robust security measures and conduct regular assessments to keep your systems safe.",
+        description: "Comprehensive protection for your digital ecosystem. From audits to incident response, we ensure resilience and compliance.",
         features: ["Security Audits", "Penetration Testing", "Compliance", "Incident Response"],
         gradient: "from-red-500 to-red-600"
     },
     {
         icon: Boxes,
         title: "Product Development",
-        description: "Full-cycle product development from ideation to launch. We help startups and enterprises bring innovative software products to market.",
+        description: "End-to-end product engineering that turns ideas into impactful solutions. From MVP to launch, we deliver innovation.",
         features: ["MVP Development", "Product Design", "Quality Assurance", "Product Launch"],
         gradient: "from-pink-500 to-pink-600"
     }
@@ -125,7 +125,13 @@ export default function Services() {
                                     </div>
 
                                     <Link to={createPageUrl("Contact")}>
-                                        <Button variant="ghost" className="group-hover:bg-blue-50 group-hover:text-blue-600">
+                                        <Button size="lg" className="
+      flex items-center justify-center 
+      bg-gradient-to-r from-blue-600 to-cyan-500 
+      hover:from-blue-700 hover:to-cyan-600 
+      text-white shadow-lg shadow-blue-500/30 
+      text-lg px-8
+    ">
                                             Learn More
                                             <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
                                         </Button>

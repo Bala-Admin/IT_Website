@@ -135,8 +135,7 @@ export default function DashboardPage({ children}: DashboardPageProps) {
                 </div>
               </div>
               <p className="text-slate-400 text-sm max-w-md">
-                Empowering businesses with cutting-edge technology solutions. 
-                From software development to cloud services, we deliver excellence.
+                Providing comprehensive technology solutions that drive business excellence, from software engineering to cloud integration.
               </p>
             </div>
 

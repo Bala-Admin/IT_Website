@@ -9,22 +9,22 @@ const values = [
   {
     icon: Lightbulb,
     title: "Innovation",
-    description: "We constantly push boundaries and embrace cutting-edge technologies"
+    description: "We challenge limits and embrace the latest technologies to transform ideas into reality."
   },
   {
     icon: Heart,
     title: "Client-Centric",
-    description: "Your success is our success. We build lasting partnerships"
+    description: "Your vision drives us — we build partnerships rooted in trust, collaboration, and shared success"
   },
   {
     icon: Shield,
     title: "Integrity",
-    description: "We operate with transparency, honesty, and ethical practices"
+    description: "We lead with honesty, transparency, and unwavering ethical standards."
   },
   {
     icon: Zap,
     title: "Excellence",
-    description: "We deliver nothing but the highest quality in everything we do"
+    description: "We deliver exceptional quality, consistently raising the bar in everything we do."
   }
 ];
 
@@ -92,11 +92,9 @@ export default function About() {
               <div className="w-16 h-16 bg-gradient-to-br from-blue-600 to-cyan-500 rounded-xl flex items-center justify-center mb-6">
                 <Target className="w-8 h-8 text-white" />
               </div>
-              <h2 className="text-3xl font-bold text-slate-900 mb-4">Our Mission</h2>
+              <h2 className="text-3xl font-bold text-slate-900 mb-4">Our Purpose</h2>
               <p className="text-lg text-slate-700 leading-relaxed">
-                To empower businesses worldwide with innovative technology solutions that drive 
-                growth, efficiency, and digital transformation. We strive to be the trusted partner 
-                for organizations seeking to leverage technology for competitive advantage.
+                To empower businesses worldwide with innovative technology that transforms operations, drives growth, and unlocks new possibilities. We are committed to being the trusted partner for organizations seeking a competitive edge in the digital era.
               </p>
             </motion.div>
 
@@ -110,11 +108,9 @@ export default function About() {
               <div className="w-16 h-16 bg-gradient-to-br from-purple-600 to-pink-500 rounded-xl flex items-center justify-center mb-6">
                 <TrendingUp className="w-8 h-8 text-white" />
               </div>
-              <h2 className="text-3xl font-bold text-slate-900 mb-4">Our Vision</h2>
+              <h2 className="text-3xl font-bold text-slate-900 mb-4">Our Aspiration</h2>
               <p className="text-lg text-slate-700 leading-relaxed">
-                To be the global leader in IT solutions, recognized for innovation, excellence, 
-                and exceptional client service. We envision a future where technology seamlessly 
-                enables businesses to achieve their full potential.
+                To be a global leader in IT innovation — recognized for excellence, trust, and transformative solutions. We envision a future where technology seamlessly empowers every business to achieve its fullest potential.
               </p>
             </motion.div>
           </div>
@@ -134,21 +130,15 @@ export default function About() {
               <h2 className="text-4xl font-bold text-slate-900 mb-6">Our Story</h2>
               <div className="space-y-4 text-slate-700 leading-relaxed">
                 <p>
-                  Founded in 2009, TechVision started as a small team of passionate developers 
-                  with a vision to revolutionize how businesses leverage technology. What began 
-                  as a local software development company has grown into a global IT solutions 
-                  provider serving Fortune 500 companies and innovative startups alike.
+                  
+In 2025, PavoSoft was born from a simple belief: technology should empower, not complicate. What began as a small team of passionate developers has grown into a global force, delivering transformative IT solutions to businesses and startups worldwide.
+
                 </p>
                 <p>
-                  Over the years, we've successfully delivered 1000+ projects across various 
-                  industries including finance, healthcare, retail, and manufacturing. Our 
-                  commitment to excellence and innovation has earned us numerous industry awards 
-                  and the trust of clients worldwide.
+                 Our journey is driven by innovation. Along the way, we created our own flagship product — designed to fuel people’s growth and help them build their future empires.
                 </p>
                 <p>
-                  Today, with offices across three continents and a team of 200+ technology 
-                  experts, we continue to push the boundaries of what's possible with technology, 
-                  helping businesses navigate their digital transformation journey.
+                  Today, PavoSoft stands at the intersection of vision and execution, pushing the boundaries of what’s possible. We don’t just build software — we craft digital experiences that drive growth, inspire change, and shape the future
                 </p>
               </div>
             </motion.div>
@@ -175,7 +165,7 @@ export default function About() {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-slate-900 mb-4">Our Core Values</h2>
             <p className="text-xl text-slate-600 max-w-2xl mx-auto">
-              The principles that guide everything we do
+              The heart of PavoSoft — guiding everything we create and every relationship we build.
             </p>
           </div>
 
@@ -201,7 +191,7 @@ export default function About() {
       </section>
 
       {/* Leadership Team */}
-      <section className="py-20 bg-slate-50">
+      {/* <section className="py-20 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-slate-900 mb-4">Leadership Team</h2>
@@ -237,7 +227,7 @@ export default function About() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }

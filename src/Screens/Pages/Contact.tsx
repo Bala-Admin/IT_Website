@@ -80,7 +80,7 @@ export default function Contact() {
               Get in Touch
             </h1>
             <p className="text-xl text-slate-300 max-w-3xl mx-auto">
-              Let's discuss how we can help transform your business with technology
+              Explore how our technology solutions can transform your business
             </p>
           </motion.div>
         </div>
@@ -98,11 +98,10 @@ export default function Contact() {
               viewport={{ once: true }}
             >
               <h2 className="text-3xl font-bold text-slate-900 mb-6">
-                Let's Build Something Great Together
+                Your Vision. Our Expertise
               </h2>
               <p className="text-lg text-slate-600 mb-8 leading-relaxed">
-                Whether you need a custom software solution, mobile app, or enterprise system,
-                our team is ready to help. Reach out to us and let's start the conversation.
+                Whether it’s a custom software solution, a mobile app, or an enterprise system, we’re here to build it with you. Let’s start the journey.
               </p>
 
               <div className="space-y-6">

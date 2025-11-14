@@ -68,14 +68,13 @@ export default function Home() {
                             </div>
 
                             <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
-                                Transform Your
-                                <span className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent"> Business </span>
-                                with Technology
+                                Intelligent Transformation Partner
+                                <span className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent"> AI at the Core  </span>
+                                of Your Digital Journey
                             </h1>
 
                             <p className="text-xl text-slate-300 mb-8 leading-relaxed">
-                                We deliver cutting-edge software solutions, mobile applications,
-                                SAP implementations, and cloud services to drive your digital transformation.
+                                We partner with you to deliver AI-driven software, mobile, SAP, and cloud solutions tailored to your business goals.Merging deep technical expertise with data-driven intelligence, we enable smarter decisions, seamless integration, and continuous growth in a rapidly evolving market.
                             </p>
 
                             <div className="flex flex-wrap gap-4">
@@ -119,7 +118,7 @@ export default function Home() {
             </section>
 
             {/* Stats Section */}
-            <section className="py-20 bg-white">
+            {/* <section className="py-20 bg-white">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
                         {stats.map((stat, index) => (
@@ -140,7 +139,7 @@ export default function Home() {
                         ))}
                     </div>
                 </div>
-            </section>
+            </section> */}
 
             {/* Services Section */}
             <section className="py-20 bg-slate-50">
@@ -215,21 +214,20 @@ export default function Home() {
                             viewport={{ once: true }}
                         >
                             <h2 className="text-4xl font-bold text-slate-900 mb-6">
-                                Why Choose TechVision?
+                                Why Choose PavoSoft?
                             </h2>
                             <p className="text-lg text-slate-600 mb-8">
-                                We combine technical expertise with business acumen to deliver
-                                solutions that drive real results.
+                                At PavoSoft, we don’t just build software — we deliver transformative solutions that power growth, efficiency, and innovation.
                             </p>
 
                             <div className="space-y-4">
                                 {[
-                                    "Expert team with 15+ years of experience",
-                                    "Cutting-edge technology stack",
-                                    "Agile development methodology",
-                                    "24/7 support and maintenance",
-                                    "On-time delivery guarantee",
-                                    "Cost-effective solutions"
+                                    "Excellence delivering cutting-edge, reliable solutions trusted",
+                                    "Advanced technology leveraging modern tools, frameworks, and AI solutions.",
+                                    "Rapid, agile solutions designed to adapt as your business grows.",
+                                    "Reliable round-the-clock support to keep your business running.",
+                                    "Precision-driven project delivery, always on time.",
+                                    "Maximizing value with cost-effective, high-quality solutions."
                                 ].map((item, index) => (
                                     <div key={index} className="flex items-start gap-3">
                                         <div className="flex-shrink-0 w-6 h-6 bg-green-100 rounded-full flex items-center justify-center mt-1">
